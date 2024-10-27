@@ -26,6 +26,7 @@ public:
         calculateNumbers();
     }
 
+
     void placeMines() {
         for (int i = 0; i < NUM_MINES; ) {
             int x = rand() % GRID_SIZE;
